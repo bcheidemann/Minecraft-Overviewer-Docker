@@ -37,7 +37,7 @@ user@desktop:~/server$ docker run \
   -v $PWD/overviewer/output:/output \
   -v $PWD/overviewer/config.py:/overviewer/config.py \
   -v $PWD/overviewer/1.18.1.jar:/root/.minecraft/versions/1.18.1/1.18.1.jar \
-  overviewer --config=/overviewer/config.py
+  bcheidemann/overviewer --config=/overviewer/config.py
 ```
 
 You can then view the render by opening `~/server/overviewer/output/index.html` in a browser.
